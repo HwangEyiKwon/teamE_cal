@@ -7,8 +7,17 @@
 
 class Cal {
 public:
-	int getDivide(int a, int b) {
-		if (b == 0) return -1;
-		return (int)a / b;
-	}
+    int getSum(int numA, int numB) {
+        return numA + numB;
+    }
+    int getGop(int numA, int numB) {
+        return numA * numB;
+    }
+    int getSumSum(int numA, int numB, int numC) {
+        return numA + numB + numC;
+    }
+    int getDivide(int a, int b) {
+      if (b == 0) return -1;
+      return (int)a / b;
+    }
 };
