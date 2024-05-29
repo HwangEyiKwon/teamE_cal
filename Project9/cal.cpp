@@ -16,7 +16,7 @@ public:
 
     int getMinus(int numA, int numB) {
         return numA - numB;
-
+    }
     int getZegop(int a) {
       return a * a;
 
