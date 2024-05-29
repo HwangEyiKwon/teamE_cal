@@ -9,6 +9,14 @@ TEST(TestCaseName, SumTest) {
     EXPECT_EQ(actual, expected);
 }
 
+TEST(TestCaseName, MinusTest) {
+    Cal cal;
+    int actual = cal.getMinus(10, 5);
+    int expected = 5;
+
+    EXPECT_EQ(actual, expected);
+}
+
 class CalFixture : public testing::Test {
 public:
 	Cal cal;
