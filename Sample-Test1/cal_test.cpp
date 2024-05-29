@@ -13,6 +13,12 @@ TEST(TestCaseName, GopTest) {
     Cal cal;
     int actual = cal.getGop(3, 7);
     int expected = 21;
-
+    EXPECT_EQ(actual, expected);
+}
+    
+TEST(TestCaseName, SumSumTest) {
+    Cal cal;
+    int actual = cal.getSumSum(1, 3, 7);
+    int expected = 11;
     EXPECT_EQ(actual, expected);
 }
