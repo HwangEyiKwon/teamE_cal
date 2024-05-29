@@ -2,7 +2,7 @@
 // getGop(a, b)
 // getZegop(a)
 // getMinus(a, b)
-// getDivide(a, b) - ¡÷«ıº≠
+// getDivide(a, b) - hyeokseo.joo
 // getSumSum(a, b, c)
 
 class Cal {
