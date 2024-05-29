@@ -2,8 +2,13 @@
 // getGop(a, b)
 // getZegop(a)
 // getMinus(a, b)
-// getDivide(a, b), getSumSum(a, b, c) - 황의권
+// getDivide(a, b) - 주혁서
+// getSumSum(a, b, c)
 
 class Cal {
 public:
+	int getDivide(int a, int b) {
+		if (b == 0) return -1;
+		return (int)a / b;
+	}
 };
