@@ -1,6 +1,10 @@
 #include "pch.h"
+#include "../Project9/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(TestCaseName, SumTest) {
+    Cal cal;
+    int actual = cal.getSum(3, 7);
+    int expected = 10;
+
+    EXPECT_EQ(actual, expected);
 }
