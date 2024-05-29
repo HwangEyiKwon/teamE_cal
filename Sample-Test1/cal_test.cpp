@@ -9,7 +9,7 @@ TEST(TestCaseName, SumTest) {
     EXPECT_EQ(actual, expected);
 }
 
-TEST(CalTest, ZegoTest) {
+TEST(CalTest, ZegopTest) {
 	int input = 2;
 	int expected = 4;
 
@@ -17,4 +17,12 @@ TEST(CalTest, ZegoTest) {
 	int actual = cal.getZegop(input);
 
 	EXPECT_EQ(actual, expected);
+}
+
+TEST(TestCaseName, SumSumTest) {
+    Cal cal;
+    int actual = cal.getSumSum(1, 3, 7);
+    int expected = 11;
+
+    EXPECT_EQ(actual, expected);
 }
